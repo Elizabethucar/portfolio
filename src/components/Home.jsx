@@ -5,7 +5,8 @@ import { useState } from 'react'
 import CookieBanner from './Cookies'
 import Typewriter from 'typewriter-effect'
 import { FaArrowDown} from 'react-icons/fa'
-import { Link as Links } from 'react-scroll'
+//import { Link } from 'react-router-dom'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 
 
@@ -29,7 +30,7 @@ const Home = () => {
     <BsToggleOn onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-xl relative'/>
     </li>
     <li className='hover:scale-110 duration-300'>
-      <a className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full ml-8'
+      <a className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full ml-6'
        href="/resume">Resume</a>
     </li>
     </ul>
@@ -119,8 +120,8 @@ After graduating, I am excited to embark on my journey as a Frontend developer. 
 
         </p>
         <div className='flex justify-end '>
-        <Links className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full  hover:scale-110 duration-300 mb-16'
-       to="top" smooth={true} duration={500}>To The Top</Links>
+        <Link className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full  hover:scale-110 duration-300 mb-16'
+       to="top" smooth={true} duration={500}>To The Top</Link>
        
        </div>
   </div>
