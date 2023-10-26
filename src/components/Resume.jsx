@@ -99,7 +99,7 @@ const Resume = () => {
        
           <div className="pt-10 flex flex-col items-start relative pb-16 md: sm:items-start">
           <div>
-              <img src="../images/branch.png" alt="branches" className='absolute opacity-10 ml-12 
+              <img src="../images/branch.png" alt="branches" className='absolute opacity-10 ml-12
               ' />
               </div>
             <h3 className="text-2xl text-start py-2 text-black font-bold mt-12 mb-6 md:text-2xl dark:text-white">Experience</h3>
@@ -123,13 +123,16 @@ const Resume = () => {
          
               <p className='mt-12'>NOV 2022</p>
               <h2 className="text-3xl py-2 text-teal-600 font-bold text-start md:text-3xl">IT Consultant | Phantoms</h2>
+              <div>
+              <img src="../images/branch.png" alt="branches" className='absolute opacity-10 ml-12 
+              ' />
+              </div>
              
               <ul className="flex flex-col text-start mt-6">
                 <li> Server teacher at Jensen Education Kista</li>
                 <li> Teaching server, API, Express, Node.js, Git, and GitHub</li>
                 <li> Planning lessons</li>
               </ul>
-           
              
             <div className=" flex flex-col items-start pt-12">
               <p>APRIL 2013 - 2017</p>
@@ -139,12 +142,13 @@ const Resume = () => {
                 <li> Sales oriented and customer focus</li>
               </ul>
             </div>
-           
+            
             <h3 className="text-2xl py-2 text-black font-bold mt-12 mb-6 md:text-2xl dark:text-white">Education</h3>
               <p>AUG 2021 - JUNE 2023</p>
               <h2 className="text-3xl py-2 text-teal-600 font-bold text-start md:text-3xl">
               Frontend Development | 2 Years</h2>
               <p className='text-start'>Jensen Education, focus on websecurity</p>
+              
               
               <h3 className="text-2xl py-2 text-black font-bold text-start mt-12 mb-6 md:text-2xl dark:text-white">
                 Skills & Interests
@@ -162,8 +166,8 @@ const Resume = () => {
               <p className="text-start">Sustainability, coding, music, design, make-up, cinema, travelling, nature.</p>
         
           </div>
-          <div className='flex justify-end relative'>
-        <Link className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full  hover:scale-110 duration-300 '
+          <div className='flex justify-end relative '>
+        <Link className='bg-gradient-to-r from-pink-400 to-pink-800 text-white px-4 py-2 rounded-full mb-16 hover:scale-110 duration-300'
        to="top" smooth={true} duration={500}>To The Top</Link>
        </div>
         </div>
