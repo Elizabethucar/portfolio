@@ -123,15 +123,14 @@ const Resume = () => {
          
               <p className='mt-12'>NOV 2022</p>
               <h2 className="text-3xl py-2 text-teal-600 font-bold text-start md:text-3xl">IT Consultant | Phantoms</h2>
+             
               <ul className="flex flex-col text-start mt-6">
                 <li> Server teacher at Jensen Education Kista</li>
                 <li> Teaching server, API, Express, Node.js, Git, and GitHub</li>
                 <li> Planning lessons</li>
               </ul>
            
-              <div>
-              <img src="../images/branch.png" alt="branches" className='opacity-10 absolute ml-12  ' />
-              </div>
+             
             <div className=" flex flex-col items-start pt-12">
               <p>APRIL 2013 - 2017</p>
               <h2 className="text-3xl py-2 text-teal-600 text-start font-bold md:text-3xl ">Sales | Åhlens Linköping</h2>
